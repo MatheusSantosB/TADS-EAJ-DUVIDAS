@@ -203,6 +203,14 @@ def _is_small_talk(question: str) -> bool:
     }
     if normalized in {_normalize_short_text(item) for item in acknowledgements}:
         return True
+    if normalized.startswith("se eu falar so "):
+        trailing_text = normalized.removeprefix("se eu falar so ").strip()
+        if trailing_text in {_normalize_short_text(item) for item in acknowledgements}:
+            return True
+    if normalized.startswith("so "):
+        trailing_text = normalized.removeprefix("so ").strip()
+        if trailing_text in {_normalize_short_text(item) for item in acknowledgements}:
+            return True
 
     academic_markers = [
         "tads",

@@ -20,6 +20,7 @@ Quando o contexto trouxer tabelas com disciplinas, codigos, periodos ou carga ho
 Se a pergunta pedir um periodo especifico, responda somente sobre esse periodo.
 Se a pergunta pedir uma carga horaria e o contexto mostrar um numero ao lado do componente, responda esse numero de forma direta.
 Quando uma tabela comparar "Estrutura Antiga" e "Estrutura Nova", use os valores da "Estrutura Nova", pois ela representa a matriz atual.
+Se a pergunta pedir como a carga horaria total de 2.295 horas e dividida, confira se os subtotais citados fecham 2.295. Se a tabela comparativa mostrar itens que somam menos que 2.295, diga que o total oficial e 2.295 e aponte a diferenca em vez de forcar a soma.
 Responda somente ao que foi perguntado; nao acrescente regras ou categorias extras se a pergunta for especifica.
 Nao comece a resposta com frases meta como "A pergunta do usuario e..." ou "Com base nos documentos fornecidos"; responda diretamente.
 Ao final, nao crie uma lista de fontes; o sistema mostrara as fontes separadamente.

@@ -20,10 +20,15 @@ tads_chatbot/
   main.py
   .env.example
   requirements.txt
+  requirements-eval.txt
   README.md
   data/
   cases/
     cases.json
+  evaluation/
+    gabarito_avaliacao.json
+  scripts/
+    evaluate_ragas.py
   src/
     __init__.py
     config.py
@@ -190,3 +195,39 @@ O chatbot:
 Se aparecer erro dizendo que `GROQ_API_KEY` nao foi encontrada, confira se o arquivo `.env` existe na raiz do projeto e se a chave foi preenchida.
 
 Se o chatbot nao encontrar documentos, rode a ingestao novamente depois de colocar PDFs ou TXTs na pasta `data/`.
+
+## Avaliar qualidade com Ragas
+
+O Ragas foi deixado como avaliacao separada do chatbot. Assim o terminal continua simples, e a avaliacao pode ser rodada quando voce quiser medir qualidade das respostas.
+
+Instale as dependencias opcionais:
+
+```bash
+pip install -r requirements-eval.txt
+```
+
+Rode uma avaliacao rapida sem Ragas, apenas para confirmar respostas, contextos e fontes recuperadas:
+
+```bash
+python3 scripts/evaluate_ragas.py --skip-ragas
+```
+
+Para testes maiores com a Groq, use pausa entre perguntas e continue mesmo se alguma chamada bater rate limit:
+
+```bash
+python3 scripts/evaluate_ragas.py --skip-ragas --delay-seconds 5 --continue-on-error
+```
+
+Rode a avaliacao completa com Ragas:
+
+```bash
+python3 scripts/evaluate_ragas.py
+```
+
+O arquivo `evaluation/gabarito_avaliacao.json` contem perguntas de referencia para avaliacao. Ele nao e usado pelo CBR e nao influencia as respostas do chatbot no uso normal. O gabarito inicial tem 51 perguntas sobre grade curricular, TCC, estagio, atividades complementares, calendario, regulamento e documentos auxiliares. Cada item tem:
+
+- `question`: pergunta enviada ao chatbot;
+- `ground_truth`: resposta esperada resumida;
+- `expected_sources`: documentos que deveriam aparecer entre as fontes.
+
+O resultado da ultima execucao fica em `evaluation/ragas_last_run.json`, que nao entra no Git.

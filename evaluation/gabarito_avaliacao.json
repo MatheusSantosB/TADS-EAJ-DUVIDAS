@@ -1,0 +1,257 @@
+[
+  {
+    "question": "Qual e a carga horaria total do curso de TADS?",
+    "ground_truth": "A carga horaria total do curso de Tecnologia em Analise e Desenvolvimento de Sistemas e de 2.295 horas.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Como as 2295 horas do curso sao divididas?",
+    "ground_truth": "O PPC informa total geral de 2.295 horas. Na caracterizacao do curso, os subtotais que fecham esse total aparecem como 1.665 horas em disciplinas obrigatorias, 90 horas de Trabalho de Conclusao de Curso, 120 horas de Atividades Integradoras de Formacao, 240 horas de carga horaria eletiva maxima e 180 horas de Atividades Complementares. Na tabela comparativa da estrutura nova tambem aparecem Componentes Obrigatorios e Optativos com 1.845 horas, Atividades Integradoras de Formacao com 120 horas, Atividades Complementares com 180 horas e TCC com 90 horas; se usar essa tabela, a resposta deve observar que esses itens extraidos somam 2.235 horas, embora o total oficial indicado seja 2.295 horas.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Quantos semestres tem o curso de TADS?",
+    "ground_truth": "O prazo minimo e padrao para conclusao do curso e de 6 semestres, e o prazo maximo e de 9 semestres.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Qual e a carga horaria minima, media e maxima por periodo letivo?",
+    "ground_truth": "A carga horaria por periodo letivo e minima de 30 horas, media de 312 horas e maxima de 390 horas.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Quantas vagas o curso oferece no ingresso do primeiro periodo?",
+    "ground_truth": "O PPC indica ingresso no 1 periodo com 40 vagas.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Qual e a carga horaria eletiva maxima do curso?",
+    "ground_truth": "A carga horaria eletiva maxima indicada no PPC e de 240 horas.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Quais sao as materias do 1 periodo?",
+    "ground_truth": "No 1 periodo constam Fundamentos da Computacao, Algoritmos e Programacao, Raciocinio Logico, Leitura e Producao de Textos, Matematica Aplicada I e Sistemas Operacionais, totalizando 375 horas.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Quais sao as materias do 2 periodo?",
+    "ground_truth": "No 2 periodo constam Banco de Dados, Programacao Orientada a Objetos, Programacao Visual e Autoria Web, Processo de Desenvolvimento de Software, Matematica Aplicada II, Redes de Computadores e Vertentes Produtivas nas Ciencias Agrarias, totalizando 390 horas.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Quais sao as materias do 3 periodo?",
+    "ground_truth": "No 3 periodo constam Estatistica Aplicada, Inteligencia Computacional, Programacao Web, Estruturas de Dados, Gestao de Qualidade de Software, Sistemas Digitais e Analise e Projeto Orientado a Objetos, totalizando 360 horas.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Quais sao as materias do 4 periodo?",
+    "ground_truth": "No 4 periodo constam Fundamentos e Tecnicas em Ciencia de Dados, Processamento Digital de Imagens, Programacao para Dispositivos Moveis, Planejamento e Gerencia de Projetos, Metodologia do Trabalho Cientifico, Microcontroladores e Arquitetura de Software, totalizando 390 horas.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Quais sao as materias do 5 periodo?",
+    "ground_truth": "No 5 periodo constam Projetos Aplicados I, Trabalho de Conclusao de Curso I, Sistemas Distribuidos, Empreendedorismo e Contexto Geografico Regional, totalizando 195 horas.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Quais sao as materias do 6 periodo?",
+    "ground_truth": "No 6 periodo constam Projetos Aplicados II, Trabalho de Conclusao de Curso II e Legislacao e Etica em TI, totalizando 165 horas.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Quantas horas tem Fundamentos da Computacao?",
+    "ground_truth": "Fundamentos da Computacao, codigo TAD0001, tem carga horaria de 60 horas.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Qual pre-requisito de Programacao para Dispositivos Moveis?",
+    "ground_truth": "Programacao para Dispositivos Moveis tem como pre-requisito Programacao Orientada a Objetos, codigo TAD0009.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Qual pre-requisito de Projetos Aplicados II?",
+    "ground_truth": "Projetos Aplicados II exige Projetos Aplicados I e Planejamento e Gerencia de Projetos.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Quais disciplinas de TCC existem e quantas horas elas tem?",
+    "ground_truth": "O curso possui Trabalho de Conclusao de Curso I, com 30 horas, e Trabalho de Conclusao de Curso II, com 60 horas, totalizando 90 horas de TCC.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Qual e o objetivo do TCC no curso?",
+    "ground_truth": "O objetivo do TCC e preparar o discente para apresentar um trabalho que demonstre pesquisa, estagio ou monografia na area de analise e desenvolvimento de sistemas, como requisito para obtencao do titulo de Tecnologo.",
+    "expected_sources": ["RESOLUC807A771O_N_02-2019__TRABALHO_DE_CONCLUSAO_DE_CURSO_alterada.pdf"]
+  },
+  {
+    "question": "Alem de monografia, quais formatos posso usar no TCC?",
+    "ground_truth": "O TCC pode seguir formatos previstos nas normas do curso, incluindo artigo cientifico e relatorio de estagio, alem da monografia.",
+    "expected_sources": ["PPC_TADS.pdf", "ANEXO_VI_-_NORMAS_PARA_ESCRITA_DE_TCC_NO_FORMATO_ARTIGO_CIENTFICO.pdf", "ANEXO_VII_-_NORMAS_PARA_ESCRITA_DE_TCC_NO_FORMATO_RELATRIO_DE_ESTGIO.pdf"]
+  },
+  {
+    "question": "Como deve ser escrito o TCC no formato monografia?",
+    "ground_truth": "A monografia deve seguir as normas da ABNT para trabalhos academicos e pode ser organizada em introducao, materiais e metodos ou metodologia, resultados, discussao, conclusoes e referencias.",
+    "expected_sources": ["ANEXO_V_-_NORMAS_PARA_ESCRITA_DE_TCC_NO_FORMATO_MONOGRAFIA.pdf"]
+  },
+  {
+    "question": "Como deve ser escrito o TCC no formato artigo cientifico?",
+    "ground_truth": "O artigo cientifico deve ser escrito seguindo o formato da publicacao escolhida.",
+    "expected_sources": ["ANEXO_VI_-_NORMAS_PARA_ESCRITA_DE_TCC_NO_FORMATO_ARTIGO_CIENTFICO.pdf"]
+  },
+  {
+    "question": "Como deve ser escrito o TCC no formato relatorio de estagio?",
+    "ground_truth": "O relatorio de estagio deve seguir as normas da ABNT para trabalhos academicos e pode ser dividido em introducao, materiais e metodos, atividades desenvolvidas, conclusoes e referencias.",
+    "expected_sources": ["ANEXO_VII_-_NORMAS_PARA_ESCRITA_DE_TCC_NO_FORMATO_RELATRIO_DE_ESTGIO.pdf"]
+  },
+  {
+    "question": "Quais documentos aparecem na ficha de registro de TCC?",
+    "ground_truth": "A ficha de registro de TCC coleta dados como matricula, nome, telefone, e-mail, orientador, coorientador, titulo do trabalho e assinaturas relacionadas ao registro do TCC.",
+    "expected_sources": ["ANEXO_I_-_FICHA_DE_REGISTRO_DE_TRABALHO_DE_CONCLUSO_DE_CURSO.pdf"]
+  },
+  {
+    "question": "Para que serve o termo de conhecimento das normas de TCC?",
+    "ground_truth": "O termo registra que o orientador ou coorientador tem conhecimento das normas do Trabalho de Conclusao de Curso e e assinado como parte da formalizacao da orientacao.",
+    "expected_sources": ["ANEXO_II_-_TERMO_DE_CONHECIMENTO_DAS_NORMAS_DE_TRABALHO_DE_CONCLUSO_DE_CURSO.pdf"]
+  },
+  {
+    "question": "O que a banca avalia no formulario de avaliacao do TCC?",
+    "ground_truth": "O formulario de avaliacao do TCC considera criterios do trabalho escrito, com nota de 0 a 5, e da apresentacao oral, tambem com nota de 0 a 5.",
+    "expected_sources": ["ANEXO_VIII_-_FORMULRIO_DE_AVALIAO_DE_TRABALHO_DE_CONCLUSO_DE_CURSO.pdf"]
+  },
+  {
+    "question": "O que acontece se eu nao defender o TCC no prazo?",
+    "ground_truth": "Se o discente nao defender o TCC no prazo estabelecido, sera reprovado na atividade de TCC II.",
+    "expected_sources": ["PPC_TADS.pdf", "RESOLUC807A771O_N_02-2019__TRABALHO_DE_CONCLUSAO_DE_CURSO_alterada.pdf"]
+  },
+  {
+    "question": "Posso usar artigo cientifico como TCC? Quais condicoes aparecem na norma?",
+    "ground_truth": "A norma permite uso de artigo cientifico como TCC quando cumpridos os criterios previstos, incluindo aceite/publicacao em situacoes especificas, relacao com a area de Analise e Desenvolvimento de Sistemas e requisitos como autoria do discente.",
+    "expected_sources": ["RESOLUC807A771O_N_02-2019__TRABALHO_DE_CONCLUSAO_DE_CURSO_alterada.pdf"]
+  },
+  {
+    "question": "Posso usar relatorio de estagio como TCC?",
+    "ground_truth": "A norma permite relatorio de estagio como TCC em condicoes especificas, incluindo ter estagiado na concedente por pelo menos 12 meses e estar com status de formando no tempo regular.",
+    "expected_sources": ["RESOLUC807A771O_N_02-2019__TRABALHO_DE_CONCLUSAO_DE_CURSO_alterada.pdf"]
+  },
+  {
+    "question": "Quantas horas complementares de estagio nao obrigatorio posso aproveitar?",
+    "ground_truth": "O estagio nao obrigatorio entra como atividade de iniciacao profissional, com 15 horas por mes e carga horaria total permitida de 120 horas.",
+    "expected_sources": ["PPC_TADS.pdf", "RESOLUC807A771O_N_01-2019__Alterado_pela_Res_01-2021_atual.pdf"]
+  },
+  {
+    "question": "Quais sao as categorias de atividades complementares?",
+    "ground_truth": "As atividades complementares sao classificadas em iniciacao profissional, iniciacao a docencia, iniciacao a pesquisa, extensao, extensao curricular e participacao em eventos, conforme alteracao da resolucao.",
+    "expected_sources": ["RESOLUC807A771O_N_01-2019__Alterado_pela_Res_01-2021_atual.pdf"]
+  },
+  {
+    "question": "Qual e o limite de horas complementares por categoria e no curso?",
+    "ground_truth": "As atividades complementares podem somar no maximo 120 horas por categoria e 180 horas no curso, devendo ser realizadas ao longo do curso.",
+    "expected_sources": ["RESOLUC807A771O_N_01-2019__Alterado_pela_Res_01-2021_atual.pdf", "PPC_TADS.pdf"]
+  },
+  {
+    "question": "Preciso fazer atividades complementares em quantas categorias?",
+    "ground_truth": "Cada estudante deve preencher a carga horaria total de atividades complementares com atividades em pelo menos duas categorias previstas na resolucao.",
+    "expected_sources": ["RESOLUC807A771O_N_01-2019__Alterado_pela_Res_01-2021_atual.pdf", "PPC_TADS.pdf"]
+  },
+  {
+    "question": "Como registro atividades complementares?",
+    "ground_truth": "O registro das atividades complementares deve ser feito mediante apresentacao de documentacao comprobatoria, e o formulario orienta entregar comprovantes em formato digital e numerados.",
+    "expected_sources": ["RESOLUC807A771O_N_01-2019__Alterado_pela_Res_01-2021_atual.pdf"]
+  },
+  {
+    "question": "Quanto vale participacao em eventos nas atividades complementares?",
+    "ground_truth": "Na categoria participacao em eventos, a participacao em eventos contabiliza 50% da quantidade de horas do evento, limitada a 60 horas; organizacao de eventos registrados na PROEX vale 10 horas, limitada a 60 horas.",
+    "expected_sources": ["RESOLUC807A771O_N_01-2019__Alterado_pela_Res_01-2021_atual.pdf"]
+  },
+  {
+    "question": "Quanto vale curso ou minicurso nas atividades de extensao?",
+    "ground_truth": "Participacao em cursos ou minicursos reconhecidos por IES em Analise e Desenvolvimento de Sistemas ou area correlata contabiliza a quantidade de horas do curso, limitada a 60 horas.",
+    "expected_sources": ["RESOLUC807A771O_N_01-2019__Alterado_pela_Res_01-2021_atual.pdf"]
+  },
+  {
+    "question": "O que mudou nas atividades complementares durante o regime excepcional de 2020?",
+    "ground_truth": "A Instrucao Normativa 01/2020 disciplinou criterios excepcionais para contabilizacao de carga horaria complementar durante a suspensao das atividades de ensino em razao da emergencia de saude publica da COVID-19.",
+    "expected_sources": ["INSTRUCAO_NORMATIVA_N_01-2020.pdf"]
+  },
+  {
+    "question": "Qual e a jornada maxima do estagio nao obrigatorio?",
+    "ground_truth": "A jornada do estagio nao obrigatorio nao pode ultrapassar 6 horas diarias e 30 horas semanais.",
+    "expected_sources": ["RESOLUO_N_01-2020_-_Estgio-final.pdf"]
+  },
+  {
+    "question": "Qual e a duracao maxima do estagio na mesma concedente?",
+    "ground_truth": "A duracao do estagio na mesma parte concedente nao pode exceder 2 anos, exceto quando se tratar de estagiario portador de deficiencia.",
+    "expected_sources": ["RESOLUO_N_01-2020_-_Estgio-final.pdf"]
+  },
+  {
+    "question": "Quando o estagio pode ser iniciado?",
+    "ground_truth": "O estagio so pode ser iniciado apos a celebracao do Termo de Compromisso e o cadastro do estagio no sistema academico da UFRN.",
+    "expected_sources": ["RESOLUO_N_01-2020_-_Estgio-final.pdf"]
+  },
+  {
+    "question": "Quais relatorios sao obrigatorios no estagio?",
+    "ground_truth": "As atividades do estagio devem ser documentadas em relatorios semestrais e em um relatorio final, assinados pelo estagiario, supervisor de campo e orientador de estagio.",
+    "expected_sources": ["RESOLUO_N_01-2020_-_Estgio-final.pdf"]
+  },
+  {
+    "question": "O que e estagio segundo o regulamento da graduacao?",
+    "ground_truth": "Estagio e ato educativo escolar supervisionado que visa preparar o estudante para o trabalho profissional, podendo ocorrer no ambiente de trabalho ou junto a aulas e orientacao.",
+    "expected_sources": ["regulamento_dos_cursos_de_graduacao.pdf"]
+  },
+  {
+    "question": "Qual a diferenca entre orientador de estagio e supervisor de campo?",
+    "ground_truth": "O orientador de estagio e docente da UFRN responsavel pelo acompanhamento didatico-pedagogico; o supervisor de campo ou preceptor e profissional da unidade de realizacao do estagio responsavel pelo acompanhamento no local.",
+    "expected_sources": ["regulamento_dos_cursos_de_graduacao.pdf"]
+  },
+  {
+    "question": "Quando comecam e terminam as aulas de 2026.1 no calendario universitario?",
+    "ground_truth": "No calendario universitario 2026, o periodo 2026.1 inicia em 02/03/2026 e termina em 11/07/2026.",
+    "expected_sources": ["calendario_universitario.pdf"]
+  },
+  {
+    "question": "Quando comecam e terminam as aulas de 2026.2 no calendario universitario?",
+    "ground_truth": "No calendario universitario 2026, o periodo 2026.2 inicia em 10/08/2026 e termina em 19/12/2026.",
+    "expected_sources": ["calendario_universitario.pdf"]
+  },
+  {
+    "question": "Quando ocorre o processamento da matricula dos alunos regulares para 2026.1?",
+    "ground_truth": "O calendario informa processamento da matricula dos alunos regulares e em mobilidade academica para 2026.1 de 26 a 28 de janeiro.",
+    "expected_sources": ["calendario_universitario.pdf"]
+  },
+  {
+    "question": "Quando as coordenacoes registram conceitos de TCC, atividades complementares e estagio referentes a 2026.1?",
+    "ground_truth": "O calendario informa 18 de julho como ultimo dia para registro, pelas coordenacoes, dos conceitos de atividades que nao formam turmas, como TCC, Atividades Curriculares Complementares e Estagio, referentes a 2026.1.",
+    "expected_sources": ["calendario_universitario.pdf"]
+  },
+  {
+    "question": "Qual titulo o curso concede?",
+    "ground_truth": "O curso concede o titulo de Tecnologo em Analise e Desenvolvimento de Sistemas.",
+    "expected_sources": ["Apresentao2019_v2.pdf", "PPC_TADS.pdf"]
+  },
+  {
+    "question": "Qual e a modalidade e o grau do curso de TADS?",
+    "ground_truth": "O curso e presencial e concede grau de Tecnologia.",
+    "expected_sources": ["PPC_TADS.pdf"]
+  },
+  {
+    "question": "Quais disciplinas aparecem na estrutura curricular resumida?",
+    "ground_truth": "A estrutura curricular resumida lista componentes como Fundamentos da Computacao, Algoritmos e Programacao, Banco de Dados, Matematica Aplicada I, Sistemas Operacionais, Programacao Orientada a Objetos, Redes de Computadores, Programacao Web, Estruturas de Dados, Projetos Aplicados, TCC e outros.",
+    "expected_sources": ["ESTRUTURAS_CURRICULARES.pdf"]
+  },
+  {
+    "question": "Como usar o template de normalizacao de TCC?",
+    "ground_truth": "As orientacoes indicam que as informacoes em vermelho devem ser preenchidas ou adequadas e que os elementos pre-textuais seguem a sequencia estabelecida pela NBR 14724 da ABNT.",
+    "expected_sources": ["Orientaes_quanto_ao_uso_do_template_para_normalizao_de_trabalhos_de_conclus.pdf"]
+  },
+  {
+    "question": "O que e componente curricular obrigatorio, optativo e complementar no regulamento da UFRN?",
+    "ground_truth": "Obrigatorio e indispensavel a integralizacao curricular; optativo compoe um rol de opcoes da estrutura curricular para cumprir carga horaria minima; complementar enriquece o processo de ensino-aprendizagem e relaciona o estudante com dimensoes eticas, politicas, sociais, economicas, culturais e profissionais.",
+    "expected_sources": ["regulamento_dos_cursos_de_graduacao.pdf"]
+  },
+  {
+    "question": "O que e atestado de matricula?",
+    "ground_truth": "O atestado de matricula e o documento que comprova a matricula do estudante em componentes curriculares de um determinado periodo letivo.",
+    "expected_sources": ["regulamento_dos_cursos_de_graduacao.pdf"]
+  }
+]

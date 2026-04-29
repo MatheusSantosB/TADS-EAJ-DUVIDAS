@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 chroma_db/
 .pytest_cache/
+evaluation/ragas_last_run.json

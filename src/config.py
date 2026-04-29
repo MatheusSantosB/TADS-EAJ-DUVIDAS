@@ -20,7 +20,7 @@ logging.getLogger("chromadb.telemetry.product.posthog").disabled = True
 @dataclass(frozen=True)
 class Settings:
     groq_api_key: str | None = os.getenv("GROQ_API_KEY")
-    groq_model: str = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
+    groq_model: str = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
     temperature: float = float(os.getenv("TEMPERATURE", "0.1"))
     embedding_model: str = os.getenv("EMBEDDING_MODEL", "BAAI/bge-small-en-v1.5")
     chunk_size: int = int(os.getenv("CHUNK_SIZE", "900"))
